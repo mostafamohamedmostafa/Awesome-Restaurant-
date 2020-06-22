@@ -572,6 +572,12 @@ h5 {
 .contact p {
     font-style: italic;
     font-weight: bolder;
+    
+}
+.contact video{
+    height: 30vh;
+    width: 100%;
+margin: auto;
 }
 
 
