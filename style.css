@@ -44,7 +44,9 @@ i {
     -ms-transition: all ease-in-out 2s;
     -o-transition: all ease-in-out 2s;
 }
-
+.nav-item .active{
+    border: yellow 3px solid;
+}
 /*End Nav*/
 
 /*<!--Start Carousal -->*/
