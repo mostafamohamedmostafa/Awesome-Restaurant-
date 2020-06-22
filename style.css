@@ -8,6 +8,7 @@
 body {
     background-color: black !important;
     color: white;
+    text-align: center;
 }
 
 /*Start Nav*/
@@ -575,7 +576,7 @@ h5 {
     
 }
 .contact video{
-    height: 30vh;
+    height: 25vh;
     width: 100%;
 margin: auto;
 }
