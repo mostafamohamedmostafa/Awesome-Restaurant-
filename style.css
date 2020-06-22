@@ -169,15 +169,37 @@ i {
 }
 
 .our-class-box .inner-box {
+
+    text-align: center;
     height: 20vh;
     background-color: black;
     border-top: 3px solid lawngreen;
     border-bottom: 3px solid lightseagreen;
+    border-left: 3px solid lightcoral;
+    border-right: 3px solid lightseagreen;
 
 }
 
+
+
 .inner-box {
     padding: 10px;
+}
+
+.our-class-box:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    animation: shadow-wave 2s ease infinite;
+    -webkit-animation: shadow-wave 2s ease infinite;
+}
+
+.inner-box:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    animation: shadow-wave 2s ease infinite;
+    -webkit-animation: shadow-wave 2s ease infinite;
 }
 
 .inner-box h6 {
@@ -223,12 +245,12 @@ i {
 
 
 .text-style p {
-    color: orange;
+    color: aqua;
 }
 
 .text-style button {
     border: orange 3px solid;
-    color: orchid;
+    color: blue;
 }
 
 .text-style button:hover {
@@ -265,6 +287,7 @@ h5 {
 }
 
 .pricing-box {
+    margin-left: 15px;
     border: 1px solid;
     margin-top: 15px;
     text-align: center;
@@ -272,11 +295,19 @@ h5 {
     border-top-color: steelblue;
     border-bottom-color: violet;
     border-right-color: yellow;
-    border-radius: 130px 0px 180px 0px;
-    -moz-border-radius: ;
-    -webkit-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+    border-radius: 50px 0px 50px 0px;
+    -moz-border-radius: 50px 0px 50px 0px;
+    -webkit-border-radius: 50px 0px 50px 0px;
+    -ms-border-radius: 50px 0px 50px 0px;
+    -o-border-radius: 50px 0px 50px 0px;
+}
+
+.pricing-box:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    animation: shadow-wave 2s ease infinite;
+    -webkit-animation: shadow-wave 2s ease infinite;
 }
 
 .pricing-box p {
@@ -291,11 +322,12 @@ h5 {
 .pricing-box button {
     border: fuchsia 3px solid;
     color: orchid;
-    border-radius: 131px 0px 181px 0px;
-    -moz-border-radius: ;
-    -webkit-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    -ms-border-radius: 25px 25px 25px 25px;
+    -o-border-radius: 25px 25px 25px 25px;
+    margin-bottom: 15px;
 }
 
 .pricing-box button:hover {
@@ -307,6 +339,11 @@ h5 {
     -moz-transition: all ease-in-out 2s;
     -ms-transition: all ease-in-out 2s;
     -o-transition: all ease-in-out 2s;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    animation: shadow-wave 2s ease infinite;
+    -webkit-animation: shadow-wave 2s ease infinite;
 }
 
 /*<!--End  Pricing -->*/
@@ -329,26 +366,22 @@ h5 {
 }
 
 .gallery img:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
+ 
     border: 1px solid;
     border-left-color: springgreen;
     border-top-color: steelblue;
     border-bottom-color: violet;
     border-right-color: yellow;
-    border-radius: 130px 0px 180px 0px;
-    -moz-border-radius: 130px 0px 180px 0px;
-    -webkit-border-radius: 130px 0px 180px 0px;
-    -ms-border-radius: 130px 0px 180px 0px;
-    -o-border-radius: 130px 0px 180px 0px;
-    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -webkit-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -moz-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -ms-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -o-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
+    border-radius: 50px 0px 80px 0px;
+    -moz-border-radius: 50px 0px 80px 0px;
+    -webkit-border-radius: 50px 0px 80px 0px;
+    -ms-border-radius: 50px 0px 80px 0px;
+    -o-border-radius: 50px 0px 80px 0px;
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -moz-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -ms-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -o-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
 }
 
 /*<!--End  gallery -->*/
@@ -389,6 +422,12 @@ h5 {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     animation: shadow-wave 2s ease infinite;
     -webkit-animation: shadow-wave 2s ease infinite;
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -moz-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -ms-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -o-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+
 }
 
 @keyframes shadow-wave {
@@ -507,7 +546,16 @@ h5 {
 }
 
 .team i {
-    color: palegreen;
+    color:lime;
+}
+
+.team i:hover{
+    color: magenta;
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -moz-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -ms-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
+    -o-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
 }
 
 /*<!--End  Team -->*/
