@@ -76,7 +76,7 @@ i {
 
 .carousel-item p {
     position: absolute;
-    left: 40%;
+    left: 25%;
     top: 50%;
     transform: translate(-00%, -40%);
     color: white;

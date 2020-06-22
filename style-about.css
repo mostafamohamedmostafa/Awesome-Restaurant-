@@ -60,6 +60,10 @@ i {
         text-align: center;
         left: auto;
         max-width: 100%;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+        transform: translate(-00%, -40%);
     }
 
     #main-slider .carousel-item button {
