@@ -215,6 +215,7 @@ i {
     color: lime;
 }
 
+ 
 
 /*<!--End  Our Class -->*/
 /*<!--Start  registration -->*/
@@ -287,6 +288,8 @@ h5 {
 }
 
 .pricing-box {
+    margin: auto;
+
     margin-left: 15px;
     border: 1px solid;
     margin-top: 15px;
@@ -302,7 +305,7 @@ h5 {
     -o-border-radius: 50px 0px 50px 0px;
 }
 
-.pricing-box:hover{
+.pricing-box:hover {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -366,7 +369,7 @@ h5 {
 }
 
 .gallery img:hover {
- 
+
     border: 1px solid;
     border-left-color: springgreen;
     border-top-color: steelblue;
@@ -546,10 +549,10 @@ h5 {
 }
 
 .team i {
-    color:lime;
+    color: lime;
 }
 
-.team i:hover{
+.team i:hover {
     color: magenta;
     transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
     -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) 2s;
